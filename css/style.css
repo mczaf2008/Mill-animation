@@ -1,0 +1,36 @@
+.block {
+    background: url(../img/1.jpg) no-repeat center center / cover;
+    height: 100vh;
+}
+
+.block-img-1 {
+    position: absolute;
+    width: 300px;
+    height: 470px;
+    margin-top: 155px;
+}
+
+.block-img-2 {
+    position: relative;
+    animation: block-img-1 1s 1s infinite;
+    width: 320px;
+    height: 300px;
+    margin-bottom: 286px;
+    margin-left: 20px;
+}
+
+.sun {
+    margin-bottom: 500px;
+    width: 242px;
+    height: 227px;
+    padding-left: 917px;
+}
+
+@keyframes block-img-1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(1440deg);
+    }
+}
